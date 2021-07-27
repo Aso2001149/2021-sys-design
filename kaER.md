@@ -68,9 +68,6 @@ package "ECサイト" as target_system {
 
 これだと縦につながる
 customer       |o--o{     order
-order          ||--|{     order_detail
-order_detail    }--||     items
-items          }o--||     category
 
  left    le
  right   ri
